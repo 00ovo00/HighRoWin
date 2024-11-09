@@ -21,10 +21,31 @@ public class PlayerController : MonoBehaviour
         {
             Vector2 input = context.ReadValue<Vector2>();
             Vector3 direction = new Vector3(input.x, 0, input.y).normalized;
+
             if (direction != Vector3.zero)
             {
                 targetPosition = transform.position + direction * moveDistance;
                 shouldMove = true;
+
+                if (input == Vector2.up) // W 
+                {
+                    transform.rotation = Quaternion.Euler(0, 0, 0);
+                    return;
+                }
+                if (input == Vector2.left) // A
+                {
+                    transform.rotation = Quaternion.Euler(0, -90, 0);
+                    return;
+                }
+                if (input == Vector2.right)  // D
+                {
+                    transform.rotation = Quaternion.Euler(0, 90, 0);
+                    return;
+                }
+                else // S
+                {
+                    transform.rotation = Quaternion.Euler(0, 180, 0);
+                }
             }
         }
     }
