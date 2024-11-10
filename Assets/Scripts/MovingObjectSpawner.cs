@@ -10,7 +10,6 @@ public class MovingObjectSpawner : MonoBehaviour
     public float destroyAfter;      // n초 후 오브젝트 삭제
     public float spawnProbability;  // 스폰 확률
 
-    // private void Start()
     private void OnEnable()
     {
         // 스폰 위치 오브젝트 이름으로 방향 확인

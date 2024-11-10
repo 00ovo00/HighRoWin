@@ -21,20 +21,17 @@ public class StationaryObjectSpawner : MonoBehaviour
 
     private void SpawnObject(Transform lineTransform)
     {
-        // Select a random prefab
+        // 생성할 오브젝트 종류 랜덤으로 선택
         GameObject prefabToSpawn = prefabs[Random.Range(0, prefabs.Length)];
     
-        // Generate a random local x position between -1.0 and 1.0 relative to the line
-        
+        // 생성할 위치 로컬 좌표 x축 값        
         Vector3 localSpawnPosition = new Vector3(Random.Range(-0.1f, 0.1f), 0, 0);
-    
-        // Convert the local position to a world position based on the line’s transform
+        // 월드 좌표로 변환    
         Vector3 worldSpawnPosition = lineTransform.TransformPoint(localSpawnPosition);
-    
-        // Instantiate the object at the calculated world position
+        
+        // 월드 좌표 기준으로 생성
         GameObject spawnedObject = Instantiate(prefabToSpawn, worldSpawnPosition, Quaternion.identity);
 
-        // Destroy the object after a set time
         Destroy(spawnedObject, destroyAfter);
     }
 
