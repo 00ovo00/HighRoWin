@@ -74,6 +74,7 @@ GameObject:
   - component: {fileID: 3778434531114337273}
   - component: {fileID: 4898844551548071057}
   - component: {fileID: 5860972470216320688}
+  - component: {fileID: 6863905136787180634}
   m_Layer: 0
   m_Name: LeftSpawnRoad1
   m_TagString: Untagged
@@ -168,6 +169,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6863905136787180634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3947290571381890486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
+  - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
+  - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
+  SpawnPoint: {fileID: 9167519308816111756}
+  spawnInterval: 0
+  destroyAfter: 0
+  spawnProbability: 0
 --- !u!1 &4782038420532923048
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,6 +266,7 @@ GameObject:
   - component: {fileID: 6359524741843337270}
   - component: {fileID: 2879773206340882966}
   - component: {fileID: 7036847265297001404}
+  - component: {fileID: 1761257582017857374}
   m_Layer: 0
   m_Name: LeftSpawnRoad0
   m_TagString: Untagged
@@ -339,6 +361,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1761257582017857374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5750882195732596856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
+  - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
+  - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
+  SpawnPoint: {fileID: 8114810976433435954}
+  spawnInterval: 2
+  destroyAfter: 0
+  spawnProbability: 0
 --- !u!1 &7348468156529558166
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,6 +393,7 @@ GameObject:
   - component: {fileID: 642560271067350224}
   - component: {fileID: 7336171790893534609}
   - component: {fileID: 6444250620566439218}
+  - component: {fileID: 1458347992721959134}
   m_Layer: 0
   m_Name: LeftSpawnRoad2
   m_TagString: Untagged
@@ -445,3 +488,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1458347992721959134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348468156529558166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
+  - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
+  - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
+  SpawnPoint: {fileID: 8462538204331327392}
+  spawnInterval: 2
+  destroyAfter: 0
+  spawnProbability: 0

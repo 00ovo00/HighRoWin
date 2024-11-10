@@ -76,6 +76,7 @@ GameObject:
   - component: {fileID: 1153524270502853063}
   - component: {fileID: 6701684097546576514}
   - component: {fileID: 9081309380504356802}
+  - component: {fileID: 8784618437233188010}
   m_Layer: 0
   m_Name: RightSpawnRoad0
   m_TagString: Untagged
@@ -170,6 +171,26 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8784618437233188010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5113439199632932798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
+  - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
+  - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
+  SpawnPoint: {fileID: 617695066136421412}
+  spawnInterval: 1
+  destroyAfter: 0
+  spawnProbability: 0
 --- !u!1 &5898933278534001707
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +234,7 @@ GameObject:
   - component: {fileID: 7305430140302530767}
   - component: {fileID: 3378086123378323833}
   - component: {fileID: 1865507287374955373}
+  - component: {fileID: 4427964390563097503}
   m_Layer: 0
   m_Name: RightSpawnRoad1
   m_TagString: Untagged
@@ -307,3 +329,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4427964390563097503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8951231377163577197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
+  - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
+  - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
+  SpawnPoint: {fileID: 1819048731340377871}
+  spawnInterval: 0
+  destroyAfter: 0
+  spawnProbability: 0
