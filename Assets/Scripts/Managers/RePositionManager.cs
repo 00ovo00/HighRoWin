@@ -33,6 +33,7 @@ public class RePositionManager : SingletonBase<RePositionManager>
     {
         // 활성화된 로드 리스트에서 첫번째 요소(지나간 로드) 삭제
         GameObject passedSegment = activeRoads[0];
+        passedSegment.SetActive(false);
         activeRoads.RemoveAt(0);
 
         // 현재 활성화된 로드(플레이어가 지나가고 있는 로드) 기준으로 새로운 위치 잡기
@@ -41,5 +42,6 @@ public class RePositionManager : SingletonBase<RePositionManager>
 
         // 활성화된 로드 리스트에 추가하여 재배치
         activeRoads.Add(passedSegment);
+        passedSegment.SetActive(true);
     }
 }

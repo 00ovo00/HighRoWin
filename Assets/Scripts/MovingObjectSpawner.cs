@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public class MovingObjectSpawner : MonoBehaviour
 {
     public GameObject[] prefabs;
     public Transform SpawnPoint;    // 스폰 위치
@@ -10,7 +10,8 @@ public class Spawner : MonoBehaviour
     public float destroyAfter;      // n초 후 오브젝트 삭제
     public float spawnProbability;  // 스폰 확률
 
-    private void Start()
+    // private void Start()
+    private void OnEnable()
     {
         // 스폰 위치 오브젝트 이름으로 방향 확인
         if (SpawnPoint.gameObject.name == "RightSpawnPoint")
@@ -19,7 +20,7 @@ public class Spawner : MonoBehaviour
             isRight = false;
 
         // 기본 값 설정
-        spawnInterval = 5.0f;
+        spawnInterval = 3.0f;
         destroyAfter = 5.0f;
         spawnProbability = 0.7f;
         
