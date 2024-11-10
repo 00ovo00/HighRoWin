@@ -8,12 +8,12 @@ public class CameraFollow : MonoBehaviour
     public Transform player;
     public Vector3 offset;
 
-    private void Awake()
+    private void Start()
     {
         offset = transform.position - player.position;
     }
 
-    void LateUpdate()
+    private void LateUpdate()
     {
         if (player != null)
         {

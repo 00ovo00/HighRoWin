@@ -9,10 +9,12 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     private Vector3 targetPosition;
     private bool shouldMove = false;
+    public int rowCount;
 
     private void Awake()
     {
         targetPosition = transform.position;
+        rowCount = 0;
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -30,6 +32,7 @@ public class PlayerController : MonoBehaviour
                 if (input == Vector2.up) // W 
                 {
                     transform.rotation = Quaternion.Euler(0, 0, 0);
+                    rowCount++;
                     return;
                 }
                 if (input == Vector2.left) // A
@@ -37,14 +40,10 @@ public class PlayerController : MonoBehaviour
                     transform.rotation = Quaternion.Euler(0, -90, 0);
                     return;
                 }
-                if (input == Vector2.right)  // D
+                else  // D
                 {
                     transform.rotation = Quaternion.Euler(0, 90, 0);
                     return;
-                }
-                else // S
-                {
-                    transform.rotation = Quaternion.Euler(0, 180, 0);
                 }
             }
         }

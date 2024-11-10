@@ -39,17 +39,6 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "Down",
-                    "id": "bb93ff71-b12f-4900-83ea-92b8e7ddf038",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "PlayerControl",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "Left",
                     "id": "a8eec4b0-e013-43ba-b2ba-5b588e4a3230",
                     "path": "<Keyboard>/a",
