@@ -22,6 +22,8 @@ public class MovingObject : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("Player entered"); }
+            Debug.Log("Player entered");
+            GameManager.Instance.GameOver();
+        }
     }
 }
