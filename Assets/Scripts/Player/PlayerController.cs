@@ -9,12 +9,10 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     private Vector3 targetPosition;
     private bool shouldMove = false;
-    public int rowCount;
 
     private void Awake()
     {
         targetPosition = transform.position;
-        rowCount = 0;
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -32,7 +30,7 @@ public class PlayerController : MonoBehaviour
                 if (input == Vector2.up) // W 
                 {
                     transform.rotation = Quaternion.Euler(0, 0, 0);
-                    rowCount++;
+                    DataManager.Instance.RowCount++;
                     return;
                 }
                 if (input == Vector2.left) // A
@@ -63,9 +61,4 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    //
-    // private void OnTriggerEnter(Collider other)
-    // {
-    //     Debug.Log(other.name);
-    // }
 }

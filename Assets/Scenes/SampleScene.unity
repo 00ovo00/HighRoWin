@@ -1339,7 +1339,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDistance: 1
   moveSpeed: 5
-  rowCount: 0
 --- !u!54 &1805162566
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1844,6 +1843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverBG: {fileID: 1447959449}
+  scoreText: {fileID: 1615952680}
 --- !u!1001 &6903965591448091606
 PrefabInstance:
   m_ObjectHideFlags: 0
