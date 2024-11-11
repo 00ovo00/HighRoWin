@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     private Vector3 targetPosition;
     private bool shouldMove = false;
 
+    public Action OnJump;
+
     private void Awake()
     {
         targetPosition = transform.position;
@@ -19,6 +21,8 @@ public class PlayerController : MonoBehaviour
     {
         if (context.phase == InputActionPhase.Started)
         {
+            OnJump?.Invoke();
+            
             Vector2 input = context.ReadValue<Vector2>();
             Vector3 direction = new Vector3(input.x, 0, input.y).normalized;
 
