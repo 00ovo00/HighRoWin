@@ -3,12 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
     public GameObject gameOverBG;
-    public TextMeshProUGUI scoreText;
-
+    public TextMeshProUGUI curScoreText;
+    public TextMeshProUGUI endScoreText;
+    public Button retryButton;
+    
     private void OnEnable()
     {
         GameManager.Instance.OnGameOver -= SettingGameOverPopup;
@@ -16,6 +21,11 @@ public class UIController : MonoBehaviour
 
         DataManager.Instance.OnScoreChanged -= UpdateScoreTxt;
         DataManager.Instance.OnScoreChanged += UpdateScoreTxt;
+        
+        retryButton.onClick.AddListener((() =>
+        {
+            GameManager.Instance.GameStart();
+        }));
     }
 
     private void Start()
@@ -25,11 +35,12 @@ public class UIController : MonoBehaviour
 
     private void SettingGameOverPopup()
     {
+        endScoreText.text = curScoreText.text.Substring(6);
         gameOverBG.SetActive(true);
     }
     
     private void UpdateScoreTxt()
     {
-        scoreText.text = $"Score: {DataManager.Instance.RowCount.ToString()}";
+        curScoreText.text = $"Score: {DataManager.Instance.RowCount.ToString()}";
     }
 }
