@@ -35,12 +35,12 @@ public class UIController : MonoBehaviour
 
     private void SettingGameOverPopup()
     {
-        endScoreText.text = curScoreText.text.Substring(6);
+        endScoreText.text = curScoreText.text.Substring(5);
         gameOverBG.SetActive(true);
     }
     
     private void UpdateScoreTxt()
     {
-        curScoreText.text = $"Score: {DataManager.Instance.RowCount.ToString()}";
+        curScoreText.text = $"Row: {DataManager.Instance.RowCount.ToString()}";
     }
 }
