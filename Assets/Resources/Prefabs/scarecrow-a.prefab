@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5128826947483480868}
   - component: {fileID: 235938765202180865}
   - component: {fileID: 4402774160976802385}
-  - component: {fileID: 8211941734068172419}
   - component: {fileID: 574046619541012774}
+  - component: {fileID: 3241323799596139219}
   m_Layer: 0
   m_Name: scarecrow-a
   m_TagString: Untagged
@@ -85,28 +85,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8211941734068172419
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6165770816048155102}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8535438203868824817, guid: 1e1c292275b80884c97279c3bfd12910, type: 3}
 --- !u!114 &574046619541012774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,3 +98,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!136 &3241323799596139219
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6165770816048155102}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.17403384
+  m_Height: 1.6216702
+  m_Direction: 1
+  m_Center: {x: 0.006094381, y: 1.1891649, z: 0.035898715}

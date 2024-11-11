@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7363304141023925954}
   - component: {fileID: 1325150954499605305}
   - component: {fileID: 3980319855975492913}
-  - component: {fileID: 1025353171472986739}
+  - component: {fileID: 7533140054409098696}
   m_Layer: 0
   m_Name: gibbet-base
   m_TagString: Untagged
@@ -84,8 +84,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1025353171472986739
-MeshCollider:
+--- !u!65 &7533140054409098696
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -102,10 +102,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 735383142099442748, guid: 8fd3a4cf67066bb4bbfe56d642be1efa, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.15776947, y: 3.9478314, z: 0.21975106}
+  m_Center: {x: -0.01578188, y: 1.9354678, z: -0.02095583}
 --- !u!1 &3667499651181237000
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,7 +116,7 @@ GameObject:
   - component: {fileID: 4228412651989180395}
   - component: {fileID: 8895446313172757439}
   - component: {fileID: 7451497852432169104}
-  - component: {fileID: 5051398491655623365}
+  - component: {fileID: 2545824256067234023}
   m_Layer: 0
   m_Name: gibbet-gate
   m_TagString: Untagged
@@ -190,8 +189,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5051398491655623365
-MeshCollider:
+--- !u!65 &2545824256067234023
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -208,10 +207,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -54914988910352589, guid: 8fd3a4cf67066bb4bbfe56d642be1efa, type: 3}
+  serializedVersion: 3
+  m_Size: {x: 0.57356155, y: 1.5680695, z: 0.42063344}
+  m_Center: {x: 0.24868268, y: 0.010580778, z: 0.2054078}
 --- !u!1 &8927447184085764933
 GameObject:
   m_ObjectHideFlags: 0
