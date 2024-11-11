@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class MovingObject : MonoBehaviour
@@ -15,5 +16,12 @@ public class MovingObject : MonoBehaviour
     private void FixedUpdate()
     {
         transform.Translate(Vector3.right * direction * speed * Time.fixedDeltaTime);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            Debug.Log("Player entered"); }
     }
 }
