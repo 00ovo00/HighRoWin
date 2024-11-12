@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class StationaryObjectSpawner : MonoBehaviour
 {
-    public GameObject[] prefabs;
-    public float destroyAfter;      // n초 후 오브젝트 삭제
-    public float spawnProbability;  // 스폰 확률
+    [SerializeField] private GameObject[] prefabs;
+    private float destroyAfter;      // n초 후 오브젝트 삭제
+    private float spawnProbability;  // 스폰 확률
 
     private void OnEnable()
     {
@@ -15,7 +15,7 @@ public class StationaryObjectSpawner : MonoBehaviour
         
         if (Random.value <= spawnProbability)
         {
-            SpawnObject(transform);
+            SpawnObject(transform); // 스크립트 붙어있는 현재 행 기준으로 스폰
         }
     }
 

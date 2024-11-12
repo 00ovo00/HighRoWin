@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MovingObject : MonoBehaviour
 {
-    public float speed;
+    [SerializeField] private float speed;
     private float direction;
 
     public void Initialize(float movementDirection)

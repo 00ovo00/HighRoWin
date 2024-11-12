@@ -4,38 +4,35 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement")]
-    public float moveDistance = 1f;
-    public float moveSpeed = 5f;
+    private float moveDistance = 1f;    // 한번에 이동하는 거리
+    [SerializeField] private float moveSpeed = 5f;
     private Vector3 targetPosition;
     private bool shouldMove = false;
 
     public Action OnJump;
 
-    private void Awake()
-    {
-        targetPosition = transform.position;
-    }
-
     public void OnMove(InputAction.CallbackContext context)
     {
         if (context.phase == InputActionPhase.Started)
         {
+            // 이동 시 점프 애니메이션과 효과음 재생
             OnJump?.Invoke();
             SoundManager.Instance.PlayJumpSFX();
             
+            // 입력 정규화
             Vector2 input = context.ReadValue<Vector2>();
             Vector3 direction = new Vector3(input.x, 0, input.y).normalized;
 
             if (direction != Vector3.zero)
             {
+                // 현재 위치에서 한번에 이동하는 거리만큼 목표 지점 설정하고 움직여야 하는 상태로 전환
                 targetPosition = transform.position + direction * moveDistance;
                 shouldMove = true;
 
                 if (input == Vector2.up) // W 
                 {
                     transform.rotation = Quaternion.Euler(0, 0, 0);
-                    DataManager.Instance.RowCount++;
+                    DataManager.Instance.RowCount++;    // 전진할 때만 점수 증가
                     return;
                 }
                 if (input == Vector2.left) // A
@@ -54,13 +51,14 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (shouldMove)
+        if (shouldMove) // 움직여야하는 상태면
         {
             Vector3 newPosition = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.fixedDeltaTime);
-            transform.position = newPosition;
+            transform.position = newPosition;   // 목표 지점으로 이동
 
-            if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
+            if (Vector3.Distance(transform.position, targetPosition) < 0.01f)   // 목표 지점에 근접하면
             {
+                // 목표 지점 도착한 것으로 설정하고 움직이지 않아야하는 상태로 전환
                 transform.position = targetPosition;
                 shouldMove = false;
             }

@@ -5,9 +5,9 @@ using UnityEngine.Serialization;
 
 public class RePositionManager : SingletonBase<RePositionManager>
 {
-    public GameObject roadPrefab;
+    [SerializeField] private GameObject roadPrefab;
     public Transform player;
-    public float roadSegmentLength = 33f; // 로드 사이의 간격
+    [SerializeField] private float roadSegmentLength = 33f; // 로드 사이의 간격
     
     private List<GameObject> activeRoads = new List<GameObject>();  // 활성화된 로드 프리팹 리스트
     

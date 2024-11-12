@@ -9,10 +9,10 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-    public GameObject gameOverBG;
-    public TextMeshProUGUI curScoreText;
-    public TextMeshProUGUI endScoreText;
-    public Button retryButton;
+    [SerializeField] private GameObject gameOverBg;
+    [SerializeField] private TextMeshProUGUI curScoreText;
+    [SerializeField] private TextMeshProUGUI endScoreText;
+    [SerializeField] private Button retryButton;
     
     private void OnEnable()
     {
@@ -30,13 +30,13 @@ public class UIController : MonoBehaviour
 
     private void Start()
     {
-        gameOverBG.SetActive(false);
+        gameOverBg.SetActive(false);
     }
 
     private void SettingGameOverPopup()
     {
         endScoreText.text = curScoreText.text.Substring(5);
-        gameOverBG.SetActive(true);
+        gameOverBg.SetActive(true);
     }
     
     private void UpdateScoreTxt()

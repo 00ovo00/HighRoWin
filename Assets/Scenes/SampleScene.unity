@@ -1644,7 +1644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524ac9c637035be45a62d30d4f5b1a8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDistance: 1
   moveSpeed: 5
 --- !u!54 &1805162566
 Rigidbody:
@@ -2161,7 +2160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e7027fff7eb377428f48d17bb1131f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverBG: {fileID: 1447959449}
+  gameOverBg: {fileID: 1447959449}
   curScoreText: {fileID: 1615952680}
   endScoreText: {fileID: 432106618}
   retryButton: {fileID: 1358277931}

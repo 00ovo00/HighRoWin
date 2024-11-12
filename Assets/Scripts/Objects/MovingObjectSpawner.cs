@@ -3,15 +3,17 @@ using UnityEngine;
 
 public class MovingObjectSpawner : MonoBehaviour
 {
-    public GameObject[] prefabs;
-    public Transform SpawnPoint;    // 스폰 위치
+    [SerializeField] private GameObject[] prefabs;
+    private Transform SpawnPoint;    // 스폰 위치
     private bool isRight;           // 방향 확인 플래그, true면 오른쪽에서 스폰
-    public float spawnInterval;     // 기본 스폰 쿨탐
-    public float destroyAfter;      // n초 후 오브젝트 삭제
-    public float spawnProbability;  // 스폰 확률
+    private float spawnInterval;     // 기본 스폰 쿨탐
+    private float destroyAfter;      // n초 후 오브젝트 삭제
+    private float spawnProbability;  // 스폰 확률
 
     private void OnEnable()
     {
+        SpawnPoint = transform.GetChild(0);
+        
         // 스폰 위치 오브젝트 이름으로 방향 확인
         if (SpawnPoint.gameObject.name == "RightSpawnPoint")
             isRight = true;

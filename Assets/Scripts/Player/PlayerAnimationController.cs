@@ -8,11 +8,6 @@ public class PlayerAnimationController : AnimationController
 {
     private static readonly int Jump = Animator.StringToHash("Jump");
     private static readonly int Die = Animator.StringToHash("Die");
-
-    protected override void Awake()
-    {
-        base.Awake();
-    }
     
     private void OnEnable()
     {
@@ -26,6 +21,7 @@ public class PlayerAnimationController : AnimationController
     {
         animator.SetTrigger(Jump);
     }
+    
     private void Death()
     {
         animator.SetTrigger(Die);
