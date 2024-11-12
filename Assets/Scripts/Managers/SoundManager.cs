@@ -27,6 +27,8 @@ public class SoundManager : SingletonBase<SoundManager>
     {
         _bgmSource.volume = 0.8f;
         _sfxSource.volume = 1.0f;
+        
+        PlayStartBGM();
     }
     
     private void SetAudioSource()
