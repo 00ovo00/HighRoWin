@@ -183,14 +183,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poolTags:
+  - pumpkin
+  - scarecrow
+  - tomb
   prefabs:
   - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
   - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
   - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
-  SpawnPoint: {fileID: 617695066136421412}
-  spawnInterval: 1
-  destroyAfter: 0
-  spawnProbability: 0
 --- !u!1 &5898933278534001707
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,11 +341,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poolTags:
+  - pumpkin
+  - scarecrow
+  - tomb
   prefabs:
   - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
   - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
   - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
-  SpawnPoint: {fileID: 1819048731340377871}
-  spawnInterval: 0
-  destroyAfter: 0
-  spawnProbability: 0
