@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
         if (context.phase == InputActionPhase.Started)
         {
             OnJump?.Invoke();
+            SoundManager.Instance.PlayJumpSFX();
             
             Vector2 input = context.ReadValue<Vector2>();
             Vector3 direction = new Vector3(input.x, 0, input.y).normalized;

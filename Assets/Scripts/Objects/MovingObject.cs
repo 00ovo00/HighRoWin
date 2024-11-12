@@ -24,6 +24,7 @@ public class MovingObject : MonoBehaviour
         {
             Debug.Log("Player entered");
             GameManager.Instance.GameOver();
+            SoundManager.Instance.PlayCollsionSFX();
         }
     }
 }
