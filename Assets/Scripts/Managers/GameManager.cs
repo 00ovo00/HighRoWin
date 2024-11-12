@@ -25,7 +25,6 @@ public class GameManager : SingletonBase<GameManager>
     public void GameOver()
     {
         isPlaying = false;
-        //Time.timeScale = 0.0f;
         OnGameOver?.Invoke();
     }
 }
