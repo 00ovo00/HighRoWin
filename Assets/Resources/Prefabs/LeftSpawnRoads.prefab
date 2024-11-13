@@ -185,10 +185,10 @@ MonoBehaviour:
   - pumpkin
   - scarecrow
   - tomb
-  prefabs:
-  - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
-  - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
-  - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
+  movingObjectDatas:
+  - {fileID: 11400000, guid: 5794eed38739f1f40b2888c1d45ceef6, type: 2}
+  - {fileID: 11400000, guid: 3478173fbe8ef6b44b2a7225b86165d9, type: 2}
+  - {fileID: 11400000, guid: 631615068843497489d812020a031950, type: 2}
 --- !u!1 &4782038420532923048
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,10 +377,10 @@ MonoBehaviour:
   - pumpkin
   - scarecrow
   - tomb
-  prefabs:
-  - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
-  - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
-  - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
+  movingObjectDatas:
+  - {fileID: 11400000, guid: 5794eed38739f1f40b2888c1d45ceef6, type: 2}
+  - {fileID: 11400000, guid: 3478173fbe8ef6b44b2a7225b86165d9, type: 2}
+  - {fileID: 11400000, guid: 631615068843497489d812020a031950, type: 2}
 --- !u!1 &7348468156529558166
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +504,7 @@ MonoBehaviour:
   - pumpkin
   - scarecrow
   - tomb
-  prefabs:
-  - {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
-  - {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
-  - {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
+  movingObjectDatas:
+  - {fileID: 11400000, guid: 5794eed38739f1f40b2888c1d45ceef6, type: 2}
+  - {fileID: 11400000, guid: 3478173fbe8ef6b44b2a7225b86165d9, type: 2}
+  - {fileID: 11400000, guid: 631615068843497489d812020a031950, type: 2}

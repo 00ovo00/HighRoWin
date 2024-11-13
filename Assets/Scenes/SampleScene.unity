@@ -1124,13 +1124,13 @@ MonoBehaviour:
   pools:
   - tag: pumpkin
     prefab: {fileID: 4655076214908982717, guid: 81a373bf062c567419256ed415c47f4b, type: 3}
-    size: 15
+    size: 30
   - tag: scarecrow
     prefab: {fileID: 6165770816048155102, guid: aa49d5f0e16043a46916ba026ee343f7, type: 3}
     size: 15
   - tag: tomb
     prefab: {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
-    size: 15
+    size: 10
 --- !u!1 &1358277929
 GameObject:
   m_ObjectHideFlags: 0
