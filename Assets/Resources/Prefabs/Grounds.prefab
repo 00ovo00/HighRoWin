@@ -118,12 +118,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &2088189055434864133
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,12 +246,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &2165966600567801208
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,12 +374,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &3059536850676374642
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,12 +502,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &3632454412739864893
 GameObject:
   m_ObjectHideFlags: 0
@@ -614,12 +630,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &3635996513402572020
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,12 +758,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &3937305003075225533
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,12 +937,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &4266620178907448685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,12 +1065,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &4985481121226501045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,12 +1193,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &5503167051324692269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,12 +1321,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &5770434547493258918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1409,12 +1449,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &6507745718252229859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,12 +1577,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &6940078853814077367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1657,12 +1705,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &7221791824178237383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1781,12 +1833,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &7261703656990871329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1905,12 +1961,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &7425792414651220452
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,12 +2089,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &7608688281907647480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,12 +2217,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &8172283931996959166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,12 +2345,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &8889159560255042634
 GameObject:
   m_ObjectHideFlags: 0
@@ -2401,12 +2473,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60
 --- !u!1 &9012069870830678298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,9 +2601,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5112dcbd7fd94f47954030a9f04bb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
-  - {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
-  - {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
-  destroyAfter: 0
-  spawnProbability: 0
+  stationaryObjectList:
+  - tag: stone
+    spawnProbability: 0.5
+    activeTime: 60
+  - tag: gibbet
+    spawnProbability: 0.2
+    activeTime: 60
+  - tag: lantern
+    spawnProbability: 0.7
+    activeTime: 60

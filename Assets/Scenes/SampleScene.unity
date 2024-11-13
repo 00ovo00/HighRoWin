@@ -1131,6 +1131,15 @@ MonoBehaviour:
   - tag: tomb
     prefab: {fileID: 5255428208747545882, guid: e9f436ece9232924b874fd1febd1a0d2, type: 3}
     size: 10
+  - tag: stone
+    prefab: {fileID: 5271128854555507160, guid: 6cd4f1d82ccb1454ab0f95dac8ade993, type: 3}
+    size: 10
+  - tag: gibbet
+    prefab: {fileID: 8927447184085764933, guid: 0085b7c88fa9715418eb2f05d2ef0ffe, type: 3}
+    size: 10
+  - tag: lantern
+    prefab: {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
+    size: 10
 --- !u!1 &1358277929
 GameObject:
   m_ObjectHideFlags: 0
