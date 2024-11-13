@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : SingletonBase<GameManager>
 {
     public Action OnGameOver;
-    private bool isPlaying = false;
+    private bool _isPlaying = false;
     
     private void Start()
     {
@@ -15,13 +15,13 @@ public class GameManager : SingletonBase<GameManager>
     public void GameStart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        isPlaying = true;
+        _isPlaying = true;
         Time.timeScale = 1.0f;
     }
     
     public void GameOver()
     {
-        isPlaying = false;
+        _isPlaying = false;
         OnGameOver?.Invoke();
     }
 }

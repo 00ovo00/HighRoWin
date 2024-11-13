@@ -11,20 +11,20 @@ public class PlayerAnimationController : AnimationController
     
     private void OnEnable()
     {
-        controller.OnJump -= Jumping;
-        controller.OnJump += Jumping;
+        Controller.OnJump -= Jumping;
+        Controller.OnJump += Jumping;
         GameManager.Instance.OnGameOver -= Death;
         GameManager.Instance.OnGameOver += Death;
     }
     
     private void Jumping()
     {
-        animator.SetTrigger(Jump);
+        Animator.SetTrigger(Jump);
     }
     
     private void Death()
     {
-        animator.SetTrigger(Die);
+        Animator.SetTrigger(Die);
         StartCoroutine(WaitForDeathAnim());
     }
 

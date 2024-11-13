@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class AnimationController : MonoBehaviour
 {
-    protected Animator animator;
-    protected PlayerController controller;
+    protected Animator Animator;
+    protected PlayerController Controller;
 
     protected virtual void Awake()
     {
-        animator = GetComponentInChildren<Animator>();
-        controller = GetComponent<PlayerController>();
+        Animator = GetComponentInChildren<Animator>();
+        Controller = GetComponent<PlayerController>();
     }
 }

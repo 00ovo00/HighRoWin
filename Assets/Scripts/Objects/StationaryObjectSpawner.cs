@@ -4,16 +4,16 @@ using UnityEngine;
 public class StationaryObjectSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] prefabs;
-    private float destroyAfter;      // n초 후 오브젝트 삭제
-    private float spawnProbability;  // 스폰 확률
+    private float _destroyAfter;      // n초 후 오브젝트 삭제
+    private float _spawnProbability;  // 스폰 확률
 
     private void OnEnable()
     {
         // 기본 값 설정
-        destroyAfter = 60.0f;
-        spawnProbability = 0.5f;
+        _destroyAfter = 60.0f;
+        _spawnProbability = 0.5f;
         
-        if (Random.value <= spawnProbability)
+        if (Random.value <= _spawnProbability)
         {
             SpawnObject(transform); // 스크립트 붙어있는 현재 행 기준으로 스폰
         }
@@ -32,7 +32,7 @@ public class StationaryObjectSpawner : MonoBehaviour
         // 월드 좌표 기준으로 생성
         GameObject spawnedObject = Instantiate(prefabToSpawn, worldSpawnPosition, Quaternion.identity);
 
-        Destroy(spawnedObject, destroyAfter);
+        Destroy(spawnedObject, _destroyAfter);
     }
 
 }

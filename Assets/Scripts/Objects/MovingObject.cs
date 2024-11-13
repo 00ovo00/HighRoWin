@@ -4,18 +4,18 @@ using UnityEngine;
 public class MovingObject : MonoBehaviour
 {
     [SerializeField] private float speed;
-    private float direction;
+    private float _direction;
 
     public void Initialize(float movementDirection)
     {
         // 이동 방향과 속력 초기화
         speed = 5.0f;
-        direction = movementDirection;
+        _direction = movementDirection;
     }
 
     private void FixedUpdate()
     {
-        transform.Translate(Vector3.right * direction * speed * Time.fixedDeltaTime);
+        transform.Translate(Vector3.right * _direction * speed * Time.fixedDeltaTime);
     }
 
     private void OnTriggerEnter(Collider other)

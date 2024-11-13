@@ -3,32 +3,33 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    private Queue<GameObject> objectPool;
-    private GameObject prefab;
+    private Queue<GameObject> _objectPool;
+    private GameObject _prefab;
 
     public void Initialize(GameObject prefab, int size)
     {
-        this.prefab = prefab;
-        objectPool = new Queue<GameObject>();
+        _prefab = prefab;
+        _objectPool = new Queue<GameObject>();
 
         for (int i = 0; i < size; i++)
         {
             GameObject obj = Instantiate(prefab, transform);
             obj.SetActive(false);
-            objectPool.Enqueue(obj);
+            _objectPool.Enqueue(obj);
         }
     }
 
     public GameObject SpawnFromPool()
     {
-        if (objectPool.Count == 0)
+        // 풀에 사용 가능한 오브젝트 있는지 확인
+        if (_objectPool.Count == 0)
         {
             Debug.LogWarning("ObjectPool is empty!");
             return null;
         }
 
-        GameObject obj = objectPool.Dequeue();
-        objectPool.Enqueue(obj);
+        GameObject obj = _objectPool.Dequeue();
+        _objectPool.Enqueue(obj);
         return obj;
     }
 

@@ -2,31 +2,31 @@ using UnityEngine;
 
 public class ParticleController : MonoBehaviour
 {
-    private ParticleSystem glowEffect;
+    private ParticleSystem _glowEffect;
 
     private void Awake()
     {
-        glowEffect = GetComponent<ParticleSystem>();
+        _glowEffect = GetComponent<ParticleSystem>();
     }
     
     private void Start()
     {
-        if (glowEffect != null) glowEffect.Stop();
+        if (_glowEffect != null) _glowEffect.Stop();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && glowEffect != null)
+        if (other.CompareTag("Player") && _glowEffect != null)
         {
-            glowEffect.Play();
+            _glowEffect.Play();
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") && glowEffect != null)
+        if (other.CompareTag("Player") && _glowEffect != null)
         {
-            glowEffect.Stop();
+            _glowEffect.Stop();
         }
     }
 }

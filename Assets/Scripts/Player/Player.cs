@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private PlayerController controller;
+    private PlayerController _controller;
 
     private void Awake()
     {
         CharacterManager.Instance.Player = this;
-        controller = GetComponent<PlayerController>();
+        _controller = GetComponent<PlayerController>();
     }
 }

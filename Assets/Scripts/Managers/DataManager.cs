@@ -5,18 +5,18 @@ using UnityEngine;
 
 public class DataManager : SingletonBase<DataManager>
 {
-    private int rowCount = 0;
+    private int _rowCount = 0;
     public Action OnScoreChanged;
     
     public int RowCount
     {
         get
         {
-            return rowCount;
+            return _rowCount;
         }
         set
         {
-            rowCount = value;
+            _rowCount = value;
             OnScoreChanged?.Invoke();
         }
     }
