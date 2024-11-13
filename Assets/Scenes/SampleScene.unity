@@ -1140,6 +1140,15 @@ MonoBehaviour:
   - tag: lantern
     prefab: {fileID: 8940270584090867723, guid: c078f3ef6f5442f449656c37434ae3a2, type: 3}
     size: 10
+  - tag: candy
+    prefab: {fileID: 6665646796009660179, guid: 267aa71dca8022d4bbd277702a4f114e, type: 3}
+    size: 5
+  - tag: lollipopwhite
+    prefab: {fileID: 5075097286187593084, guid: 904f0eb96b2bd674497d4fa2f8846e1f, type: 3}
+    size: 10
+  - tag: lollipopred
+    prefab: {fileID: 2787596080983473020, guid: 85fccf73d08703747aca4e5f60f63e8f, type: 3}
+    size: 10
 --- !u!1 &1358277929
 GameObject:
   m_ObjectHideFlags: 0

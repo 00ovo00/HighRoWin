@@ -2,8 +2,8 @@ using System;
 using UnityEngine;
 
 public class MovingObject : MonoBehaviour
-{
-    [SerializeField] private float speed;
+{ 
+    private float speed;
     private float _direction;
 
     public void Initialize(float movementDirection, float objectSpeed)

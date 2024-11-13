@@ -23,6 +23,7 @@ public class MovingObjectSpawner : MonoBehaviour
     {
         while (true)
         {
+            // 움직이는 오브젝트 데이터 리스트에서 랜덤으로 하나의 정보 가져오기
             MovingSO movingSO = movingObjectDatas[Random.Range(0, movingObjectDatas.Count)];
             yield return new WaitForSeconds(movingSO.spawnInterval);
 
@@ -35,7 +36,6 @@ public class MovingObjectSpawner : MonoBehaviour
 
     private void SpawnObject(MovingSO movingSO)
     {
-        // 프리팹 종류 중 하나를 랜덤으로 선택하여 스폰 위치에 생성
         GameObject spawnedObject = PoolingManager.Instance.SpawnFromPool(movingSO.tag, _spawnPoint.position, Quaternion.identity);
 
         // 이동할 방향 설정

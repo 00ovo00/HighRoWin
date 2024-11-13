@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 4898844551548071057}
   - component: {fileID: 5860972470216320688}
   - component: {fileID: 6863905136787180634}
+  - component: {fileID: 401530869931962524}
   m_Layer: 0
   m_Name: LeftSpawnRoad1
   m_TagString: Untagged
@@ -181,14 +182,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolTags:
-  - pumpkin
-  - scarecrow
-  - tomb
   movingObjectDatas:
   - {fileID: 11400000, guid: 5794eed38739f1f40b2888c1d45ceef6, type: 2}
   - {fileID: 11400000, guid: 3478173fbe8ef6b44b2a7225b86165d9, type: 2}
   - {fileID: 11400000, guid: 631615068843497489d812020a031950, type: 2}
+--- !u!114 &401530869931962524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3947290571381890486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &4782038420532923048
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +280,7 @@ GameObject:
   - component: {fileID: 2879773206340882966}
   - component: {fileID: 7036847265297001404}
   - component: {fileID: 1761257582017857374}
+  - component: {fileID: 3538567117086605500}
   m_Layer: 0
   m_Name: LeftSpawnRoad0
   m_TagString: Untagged
@@ -373,14 +387,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolTags:
-  - pumpkin
-  - scarecrow
-  - tomb
   movingObjectDatas:
   - {fileID: 11400000, guid: 5794eed38739f1f40b2888c1d45ceef6, type: 2}
   - {fileID: 11400000, guid: 3478173fbe8ef6b44b2a7225b86165d9, type: 2}
   - {fileID: 11400000, guid: 631615068843497489d812020a031950, type: 2}
+--- !u!114 &3538567117086605500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5750882195732596856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &7348468156529558166
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,6 +420,7 @@ GameObject:
   - component: {fileID: 7336171790893534609}
   - component: {fileID: 6444250620566439218}
   - component: {fileID: 1458347992721959134}
+  - component: {fileID: 7263190483200255062}
   m_Layer: 0
   m_Name: LeftSpawnRoad2
   m_TagString: Untagged
@@ -500,11 +527,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a671bd521664a44eb65717bdcdbfb39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolTags:
-  - pumpkin
-  - scarecrow
-  - tomb
   movingObjectDatas:
   - {fileID: 11400000, guid: 5794eed38739f1f40b2888c1d45ceef6, type: 2}
   - {fileID: 11400000, guid: 3478173fbe8ef6b44b2a7225b86165d9, type: 2}
   - {fileID: 11400000, guid: 631615068843497489d812020a031950, type: 2}
+--- !u!114 &7263190483200255062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348468156529558166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}

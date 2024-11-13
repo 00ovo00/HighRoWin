@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5498482983823655183}
   - component: {fileID: 3836833886050505379}
   - component: {fileID: 663000766921029294}
+  - component: {fileID: 9115745649098250975}
   m_Layer: 0
   m_Name: Ground (14)
   m_TagString: Untagged
@@ -128,6 +129,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &9115745649098250975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488520702092098510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &2088189055434864133
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +158,7 @@ GameObject:
   - component: {fileID: 1744049758047217341}
   - component: {fileID: 8379484966662975448}
   - component: {fileID: 1174362876734595408}
+  - component: {fileID: 320910316969551490}
   m_Layer: 0
   m_Name: Ground (18)
   m_TagString: Untagged
@@ -256,6 +274,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &320910316969551490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088189055434864133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &2165966600567801208
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +303,7 @@ GameObject:
   - component: {fileID: 6167788972037574337}
   - component: {fileID: 2536619859668048657}
   - component: {fileID: 5476818552969866153}
+  - component: {fileID: 4448377668431189695}
   m_Layer: 0
   m_Name: Ground (4)
   m_TagString: Untagged
@@ -384,6 +419,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &4448377668431189695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2165966600567801208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &3059536850676374642
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,6 +448,7 @@ GameObject:
   - component: {fileID: 2921299730976786101}
   - component: {fileID: 1731670196047319723}
   - component: {fileID: 5891194349678985139}
+  - component: {fileID: 5798329633338244764}
   m_Layer: 0
   m_Name: Ground (17)
   m_TagString: Untagged
@@ -512,6 +564,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &5798329633338244764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3059536850676374642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &3632454412739864893
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +593,7 @@ GameObject:
   - component: {fileID: 2249093086139856569}
   - component: {fileID: 7648104971348006311}
   - component: {fileID: 1051557505648169719}
+  - component: {fileID: 1505886938440875637}
   m_Layer: 0
   m_Name: Ground (2)
   m_TagString: Untagged
@@ -640,6 +709,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &1505886938440875637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3632454412739864893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &3635996513402572020
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +738,7 @@ GameObject:
   - component: {fileID: 5718047754516862801}
   - component: {fileID: 8144224111456176085}
   - component: {fileID: 506907464307865021}
+  - component: {fileID: 3847934952795112583}
   m_Layer: 0
   m_Name: Ground (7)
   m_TagString: Untagged
@@ -768,6 +854,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &3847934952795112583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3635996513402572020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &3937305003075225533
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +934,7 @@ GameObject:
   - component: {fileID: 3228564670175732525}
   - component: {fileID: 1255428512067442395}
   - component: {fileID: 4381953599807722557}
+  - component: {fileID: 3550492606125247722}
   m_Layer: 0
   m_Name: Ground (1)
   m_TagString: Untagged
@@ -947,6 +1050,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &3550492606125247722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4085562678477408137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &4266620178907448685
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,6 +1079,7 @@ GameObject:
   - component: {fileID: 5984768132809137923}
   - component: {fileID: 1539896680839423657}
   - component: {fileID: 1260974698365061738}
+  - component: {fileID: 7005360535506264358}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -1075,6 +1195,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &7005360535506264358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4266620178907448685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &4985481121226501045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1088,6 +1224,7 @@ GameObject:
   - component: {fileID: 4967958284226114757}
   - component: {fileID: 8005105368096322801}
   - component: {fileID: 8870740979403951042}
+  - component: {fileID: 3698142499748029241}
   m_Layer: 0
   m_Name: Ground (6)
   m_TagString: Untagged
@@ -1203,6 +1340,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &3698142499748029241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4985481121226501045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &5503167051324692269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,6 +1369,7 @@ GameObject:
   - component: {fileID: 3131620229033957597}
   - component: {fileID: 945094352594868256}
   - component: {fileID: 5817236696432539223}
+  - component: {fileID: 2238548336679510481}
   m_Layer: 0
   m_Name: Ground (10)
   m_TagString: Untagged
@@ -1331,6 +1485,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &2238548336679510481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5503167051324692269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &5770434547493258918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1344,6 +1514,7 @@ GameObject:
   - component: {fileID: 118014960213753226}
   - component: {fileID: 447661241353204312}
   - component: {fileID: 6420138754480380593}
+  - component: {fileID: 6343507706007499597}
   m_Layer: 0
   m_Name: Ground (15)
   m_TagString: Untagged
@@ -1459,6 +1630,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &6343507706007499597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5770434547493258918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &6507745718252229859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,6 +1659,7 @@ GameObject:
   - component: {fileID: 6182221331249360731}
   - component: {fileID: 6148769680427899754}
   - component: {fileID: 1312408138063844384}
+  - component: {fileID: 7841653576031799465}
   m_Layer: 0
   m_Name: Ground (8)
   m_TagString: Untagged
@@ -1587,6 +1775,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &7841653576031799465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6507745718252229859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &6940078853814077367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,6 +1804,7 @@ GameObject:
   - component: {fileID: 7437805615001369802}
   - component: {fileID: 3227653225849765291}
   - component: {fileID: 2243093595510362654}
+  - component: {fileID: 6136751413947611929}
   m_Layer: 0
   m_Name: Ground (13)
   m_TagString: Untagged
@@ -1715,6 +1920,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &6136751413947611929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6940078853814077367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &7221791824178237383
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,6 +1949,7 @@ GameObject:
   - component: {fileID: 7129729017737485099}
   - component: {fileID: 4871525410043521582}
   - component: {fileID: 2694882810339286107}
+  - component: {fileID: 5283596539430995815}
   m_Layer: 0
   m_Name: Ground (19)
   m_TagString: Untagged
@@ -1843,6 +2065,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &5283596539430995815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7221791824178237383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &7261703656990871329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,6 +2094,7 @@ GameObject:
   - component: {fileID: 8038182985796972338}
   - component: {fileID: 5741140048465170626}
   - component: {fileID: 1495309103756096436}
+  - component: {fileID: 7027599817645241668}
   m_Layer: 0
   m_Name: Ground (12)
   m_TagString: Untagged
@@ -1971,6 +2210,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &7027599817645241668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261703656990871329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &7425792414651220452
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,6 +2239,7 @@ GameObject:
   - component: {fileID: 6564135470263197840}
   - component: {fileID: 5554564149921278923}
   - component: {fileID: 2530783541812799258}
+  - component: {fileID: 4278767798307827582}
   m_Layer: 0
   m_Name: Ground (3)
   m_TagString: Untagged
@@ -2099,6 +2355,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &4278767798307827582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7425792414651220452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &7608688281907647480
 GameObject:
   m_ObjectHideFlags: 0
@@ -2112,6 +2384,7 @@ GameObject:
   - component: {fileID: 7197464146914271052}
   - component: {fileID: 6932097235852673020}
   - component: {fileID: 4991533127786255462}
+  - component: {fileID: 7640502725494778053}
   m_Layer: 0
   m_Name: Ground (9)
   m_TagString: Untagged
@@ -2227,6 +2500,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &7640502725494778053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7608688281907647480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &8172283931996959166
 GameObject:
   m_ObjectHideFlags: 0
@@ -2240,6 +2529,7 @@ GameObject:
   - component: {fileID: 2975073888945693311}
   - component: {fileID: 1082771030910032140}
   - component: {fileID: 4609102795645278574}
+  - component: {fileID: 4238365094419981831}
   m_Layer: 0
   m_Name: Ground (11)
   m_TagString: Untagged
@@ -2355,6 +2645,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &4238365094419981831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172283931996959166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &8889159560255042634
 GameObject:
   m_ObjectHideFlags: 0
@@ -2368,6 +2674,7 @@ GameObject:
   - component: {fileID: 3810289720568353793}
   - component: {fileID: 5683222100740959917}
   - component: {fileID: 539720391876251604}
+  - component: {fileID: 8334357739014010976}
   m_Layer: 0
   m_Name: Ground (5)
   m_TagString: Untagged
@@ -2483,6 +2790,22 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &8334357739014010976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8889159560255042634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
 --- !u!1 &9012069870830678298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2496,6 +2819,7 @@ GameObject:
   - component: {fileID: 2160095560231167233}
   - component: {fileID: 4205292751060893840}
   - component: {fileID: 2285909573354945850}
+  - component: {fileID: 5037122876944042064}
   m_Layer: 0
   m_Name: Ground (16)
   m_TagString: Untagged
@@ -2611,3 +2935,19 @@ MonoBehaviour:
   - tag: lantern
     spawnProbability: 0.7
     activeTime: 60
+--- !u!114 &5037122876944042064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9012069870830678298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b47dcddde0716a41bd3b22ed4648a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemSOList:
+  - {fileID: 11400000, guid: 1d369ad3909be0e45ad9226942facc6f, type: 2}
+  - {fileID: 11400000, guid: eb7fb8939fccf4643af03637d46d4b12, type: 2}
+  - {fileID: 11400000, guid: fbd954e42608fa94cbc1eb8f23a24617, type: 2}
