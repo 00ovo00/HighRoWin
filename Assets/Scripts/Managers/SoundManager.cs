@@ -15,6 +15,7 @@ public class SoundManager : SingletonBase<SoundManager>
     [Header("SFX")]
     [SerializeField] private AudioClip collisionSfx;
     [SerializeField] private AudioClip jumpSfx;
+    [SerializeField] private AudioClip itemSfx;
     
     protected override void Awake()
     {
@@ -58,4 +59,5 @@ public class SoundManager : SingletonBase<SoundManager>
     public void PlayStartBGM() => PlayBGM(bgmClip);
     public void PlayCollsionSFX() => PlaySFX(collisionSfx);
     public void PlayJumpSFX() => PlaySFX(jumpSfx);
+    public void PlayItemSFX() => PlaySFX(itemSfx);
 }

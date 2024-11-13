@@ -31,6 +31,8 @@ public class Item : MonoBehaviour
 
             // 아이템을 트리거한 경우에는 바로 풀로 반환
             PoolingManager.Instance.ReturnToPool(_poolTag, gameObject);
+            
+            SoundManager.Instance.PlayItemSFX();
         }
     }
 }
