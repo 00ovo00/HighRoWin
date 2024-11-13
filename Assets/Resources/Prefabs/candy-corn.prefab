@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6679324520693036819}
   - component: {fileID: 446355156557728436}
   - component: {fileID: 3997867833107275791}
-  - component: {fileID: 6576683957544500928}
   - component: {fileID: 4849018649935593920}
+  - component: {fileID: 4005363649148479510}
   m_Layer: 0
   m_Name: candy-corn
   m_TagString: Untagged
@@ -85,8 +85,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6576683957544500928
-MeshCollider:
+--- !u!114 &4849018649935593920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665646796009660179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82fb32070766aa6498570a1bcfc1f312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &4005363649148479510
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -103,19 +115,6 @@ MeshCollider:
   m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1305492349171049643, guid: 220e0f90a895b944ba938ed791bf08fa, type: 3}
---- !u!114 &4849018649935593920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6665646796009660179}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82fb32070766aa6498570a1bcfc1f312, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 3
+  m_Size: {x: 0.019965742, y: 0.03238945, z: 0.014229558}
+  m_Center: {x: -0.000000059604645, y: 0.01618003, z: -0.00000023189932}

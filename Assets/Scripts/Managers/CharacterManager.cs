@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class CharacterManager : SingletonBase<CharacterManager>
 {
     public Player Player
